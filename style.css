@@ -4,7 +4,7 @@
     box-sizing: border-box;
     outline: none;
     font-family: sans-serif;
-    background-color: #ecf0f3;
+    /* background-color: #ecf0f3; */
 }
 
 .container{
@@ -53,10 +53,12 @@ button{
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+    transition: background 0.6s;
 }
 
 button:hover{
     background-color: rgb(205, 174, 250);
+    font-size: 23px;
 }
 
 
@@ -72,4 +74,22 @@ button:hover{
 
 .operator{
     color: red;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 3px;
+}
+
+.icon-image{
+    width: 100%;
+    background: red;
+    display: flex;
+    justify-content: end;
+    height: 33px;
+    align-items: center;
+    padding: 8px;
+    /* margin: 10px; */
 }
